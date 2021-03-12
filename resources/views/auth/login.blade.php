@@ -9,7 +9,7 @@
             <form method="POST" action="{{ route('login') }}">
             @csrf
               <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-              <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+              <h1 class="h3 mb-3 fw-normal">Please log in</h1>
               <x-label for="email" :value="__('Email')">Email address</>
               <x-input type="email" id="email" class="form-control" placeholder="Email address" required autofocus>
               <x-label for="password" class="visually-hidden" :value="__('Password')">Password</label>
@@ -23,9 +23,9 @@
               <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
             </form>
           </main>
-          
-        
-            
+
+
+
 
             <!-- Email Address -->
             <div>
