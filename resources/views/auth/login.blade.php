@@ -24,7 +24,7 @@
             </form>
           </main>
 
-          <div>Hey hey</div>
+          <div>Hey Hey</div>
 
 
 
